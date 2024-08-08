@@ -7,3 +7,6 @@ def index(request):
 
 def lucas(request):
     return render(request, 'myapp/lucas.html')
+
+def felipe(request):
+    return render(request, 'myapp/felipe.html')
